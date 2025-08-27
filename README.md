@@ -4,6 +4,7 @@ Business analysis of retail sales for Mumbai &amp; Delhi (Jun 2020–Sep 2022). 
 ## 🚀 Overview
 
 Goal: Provide insights to the company; understand clientele; predict sales using time-series models; produce daily forecasts with the best-fit approach.
+
 Scope: Retail store data for Mumbai & Delhi (Jun 2020–Sep 2022), ~17,000 data points.
 Method: Null handling → dataset compilation → spline interpolation → daily aggregation → stationarity tests (ADF/KPSS) → compare Holt’s, ARIMA, BATS/TBATS, Prophet → rolling forecasts.
 
